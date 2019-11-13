@@ -1,0 +1,49 @@
+html, body {
+    width:100%;
+    margin:0%;
+    font-family: 'Baloo Thambi', cursive; 
+    background-image: url("../images/cinema.jpg");
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+   
+    }
+
+#title {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+#container {
+    width:50%;
+    margin: 50px auto;
+    background-color: #FFD700;
+}
+
+#description {
+    text-align: center;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+.form-group {
+   margin:20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+.input-style {
+    width: 100%;
+    
+    padding: 10px 0px;
+    border:1px solid gray;
+    border-radius: 5px;
+   
+}
